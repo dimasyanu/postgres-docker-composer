@@ -9,6 +9,6 @@ services:
             - ~/.postgres/data:/var/lib/postgresql/data/:rw
         environment:
             POSTGRES_USER: "yanoo"
-            POSTGRES_PASSWORD: "p@ssw0rd"
+            POSTGRES_PASSWORD: "strongpassword"
             POSTGRES_DB: "postgres"
             PGDATA: "/var/lib/postgresql/data/"
